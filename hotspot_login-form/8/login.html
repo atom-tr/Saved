@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="-1" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+  <title>NETNAM hotspot | login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<body>
+  $(if chap-id)
+  <form name="sendin" action="$(link-login-only)" method="post">
+    <input type="hidden" name="username" />
+    <input type="hidden" name="password" />
+    <input type="hidden" name="dst" value="$(link-orig)" />
+    <input type="hidden" name="popup" value="true" />
+  </form>
+
+  <script type="text/javascript" src="/md5.js"></script>
+  <script type="text/javascript">
+    <!--
+    function doLogin() {
+      document.sendin.username.value = document.login.username.value;
+      document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+      document.sendin.submit();
+      return false;
+    }
+    //
+    -->
+  </script>
+  $(endif)
+
+  <div class="limiter">
+    <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+      <div class="wrap-login100 p-t-30 p-b-50">
+        <span class="login100-form-title p-b-41" style="padding-bottom: 41px;">
+          Login to get FREE wifi
+        </span>
+        <form style="padding-bottom: 33px;padding-top: 5px;" class="login100-form validate-form p-b-33 p-t-5" name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+          <input type="hidden" name="dst" value="$(link-orig)" />
+          <input type="hidden" name="popup" value="true" />
+          <div class="wrap-input100 validate-input" data-validate="Enter username">
+            <input class="input100" name="username" type="text" value="$(username)" />
+            <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" data-validate="Enter password">
+            <input class="input100" name="password" type="password" placeholder="Password">
+            <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+          </div>
+
+          <div style="margin-top: 32px;" class="container-login100-form-btn m-t-32">
+            <button class="login100-form-btn" type="submit">
+              Connect
+            </button>
+          </div>
+
+        </form>
+        <p id="NETNAM">
+          Powered by NETNAM © 2020 Internet Hotspot
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="dropDownSelect1"></div>
+
+
+  $(if error)<br />
+  <div style="color: #FF8080; font-size: 9px">$(error)</div>$(endif)
+
+  <script type="text/javascript">
+    <!--
+    document.login.username.focus();
+    //
+    -->
+  </script>
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendor/animsition/js/animsition.min.js"></script>
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="refresh" content="2; url=$(link-redirect)">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<title>FUSION Quy Nhon - Wifi Hotspot > redirect</title>
+	<link href="css/user.css" type="text/css" rel="stylesheet" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300,200' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+.form2 {
+  margin: 0 auto;
+  font-weight: bold;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  -moz-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  width: 350px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: inherit;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+.form2 .forceColor {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.4);
+}
+</style>
+<script language="JavaScript">
+<!--
+    function startClock() {
+        $(if popup == 'true')
+        open('$(link-status)', 'hotspot_status', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=290,height=200');
+	$(endif)
+	location.href = unescape('$(link-redirect-esc)');
+    }
+//-->
+</script>
+</head>
+<body onLoad="startClock()">
+
+		<div class="form2">
+		<div class="forceColor"></div>
+					<div class="spanColor"></div>
+
+	<div id = "#findpass">
+	<div class="noidung" style="font-size: 1.2rem">
+	You are logged in
+	<br><br>
+	If nothing happens, click <a href="$(link-redirect)" style="color: red; font-size: 1.2rem">here</a></div></div>
+	</div>
+</body>
+</html>

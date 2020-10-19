@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="-1" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+  <title>NETNAM hotspot > login</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  $(if chap-id)
+  <form name="sendin" action="$(link-login-only)" method="post">
+    <input type="hidden" name="username" />
+    <input type="hidden" name="password" />
+    <input type="hidden" name="dst" value="$(link-orig)" />
+    <input type="hidden" name="popup" value="true" />
+  </form>
+
+  <script type="text/javascript" src="/md5.js"></script>
+  <script type="text/javascript">
+    <!--
+    function doLogin() {
+      document.sendin.username.value = document.login.username.value;
+      document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+      document.sendin.submit();
+      return false;
+    }
+    //
+    -->
+  </script>
+  $(endif)
+
+  <!-- partial:index.partial.html -->
+
+  <body id="particles-js"></body>
+  <div class="animated bounceInDown">
+    <div class="container">
+      <span class="error animated tada" id="msg"></span>
+      <form class="box" onsubmit="return checkStuff()" name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+        <input type="hidden" name="dst" value="$(link-orig)" />
+        <input type="hidden" name="popup" value="true" />
+        <h4>Log<span>in</span></h4>
+        <h5>to get FREE wifi.</h5>
+        <input name="username" type="text" value="$(username)" autocomplete="off">
+        <i class="typcn typcn-eye" id="eye"></i>
+        <input name="password" type="password" placeholder="Passsword" id="pwd" autocomplete="off">
+        <label>
+          <input type="checkbox">
+          <span></span>
+          <small class="rmb" style="left: 40%">I Agree to the Term & Conditions</small>
+        </label>
+        <input type="submit" value="Connect" class="btn1">
+      </form>
+    </div>
+    <div class="footer">
+      <span>Powered by NETNAM © 2020 Internet Hotspot</span>
+    </div>
+  </div>
+
+  $(if error)<br />
+  <div style="color: #FF8080; font-size: 9px">$(error)</div>$(endif)
+
+
+  <script type="text/javascript">
+    <!--
+    document.login.username.focus();
+    //
+    -->
+  </script>
+  <!-- partial -->
+  <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

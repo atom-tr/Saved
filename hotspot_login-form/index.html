@@ -1,0 +1,3362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Collection of Button Hover Effects</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css">
+<style>
+.Header {
+    z-index: 32;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsla(0,0%,100%,.7);
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 1%;
+  width: 100%;
+  fill: white;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.v-align-middle {
+    vertical-align: middle!important;
+}
+.octicon {
+    vertical-align: text-bottom;
+}
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+}
+.Header-link {
+    color: #fff;
+    white-space: nowrap;
+}</style>
+</head>
+
+<body id="inline-popups">
+  <!-- partial:index.partial.html -->
+  <div class="y-mandatory">
+    <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap px-3" role="banner"><div style = "">
+        <a class="Header-link" href="https://github.com/atom-tr" aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
+      <svg class="octicon octicon-mark-github v-align-middle" height="25" viewBox="0 0 16 16" version="1.1" width="25" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>&nbsp;&nbsp;my Github
+    </a></div></header>
+    <div class="element">
+
+      <section class="buttons">
+        <h1>Button Hover Effects</h1>
+        <div class="container">
+
+          <a class="btn btn-1 popup-modal" href="#1" data-effect="mfp-move-horizontal">
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>
+            Hover
+          </a>
+          <!--svg hover inspired by https://codepen.io/karimbalaa/pen/qERbBY?editors=110 -->
+          <!--End of Button 1 -->
+          <div id="1" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><section class="buttons">
+  <a class="btn btn-1">
+    <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%" />
+    </svg>
+    Hover
+  </a>
+</section></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html,
+body {
+  box-sizing: border-box;
+  background: #E1332D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-1 {
+  background: #e02c26;
+  font-weight: 100;
+}
+
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.btn-1 rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+.btn-1:hover {
+  background: rgba(225, 51, 45, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.btn-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}</textarea>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn btn-2" href="#2" data-effect="mfp-move-horizontal">Hover</a>
+          <div id="2" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><section class="buttons">
+  <a href="#" class="btn btn-2">Hover</a>
+</section></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html,
+body {
+  box-sizing: border-box;
+  background: #E1332D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+.btn-2 {
+  letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 5px;
+}
+
+.btn-2:after,
+.btn-2:before {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}</textarea>
+              </div>
+            </div>
+          </div>
+          <!--End of Button 2 -->
+
+          <a class="btn btn-3" href="#3" data-effect="mfp-move-horizontal">Hover</a>
+          <div id="3" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body"> <br />Copy & paste the HTML code<br /><br />
+                <textarea><section class="buttons">
+  <a href="#" class="btn btn-3">Hover</a>
+</section></textarea>
+                <br /><br /><br />Copy & paste the CSS code
+                <br /><br />
+                <textarea>@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #E1332D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn-3 {
+  background: #e3403a;
+  border: 1px solid #da251f;
+  box-shadow: 0px 2px 0 #d6251f, 2px 4px 6px #e02a24;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.btn-3:hover {
+  background: #e02c26;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  color: #ec817d;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}</textarea>
+              </div>
+            </div>
+
+          </div>
+          <!--End of Button 3 -->
+
+          <a class="btn btn-4" href="#4" data-effect="mfp-move-horizontal"><span>Hover</span></a>
+          <div id="4" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><section class="buttons">
+  <a href="#" class="btn btn-4"><span>Hover</span></a>
+</section></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html,
+body {
+  box-sizing: border-box;
+  background: #E1332D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+.btn-4 span {
+  z-index: 20;
+}
+.btn-4:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: 10;
+}
+
+.btn-4:hover:after {
+  left: 120%;
+  -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}</textarea>
+              </div>
+            </div>
+
+          </div>
+          <!--End of Button 4 -->
+
+          <a class="btn btn-5" href="#5" data-effect="mfp-move-horizontal">Hover</a>
+          <div id="5" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><section class="buttons">
+  <a href="#" class="btn btn-5">Hover</a>
+</section></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html,
+body {
+  box-sizing: border-box;
+  background: #E1332D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+.btn-5 {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-5:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}</textarea>
+              </div>
+            </div>
+          </div>
+          <!--End of Button 5 -->
+        </div>
+      </section>
+    </div>
+
+    <div class="element">
+      <section class="buttons2 element">
+        <h1>CSS Border Transitions</h1>
+        <a href="#sdraw" data-effect="mfp-move-horizontal"><button class="draw">Draw</button></a>
+        <div id="sdraw" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea><section class="buttons">
+  <button class="draw">Draw</button>
+</section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>.buttons {
+    isolation: isolate;
+}
+button {
+background: none;
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+box-shadow: inset 0 0 0 2px #f45e61;
+color: #f45e61;
+font-size: inherit;
+font-weight: 700;
+position: relative;
+vertical-align: middle;
+}
+button::before, button::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.draw {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.draw::before, .draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.draw::before {
+  top: 0;
+  left: 0;
+}
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+.draw:hover {
+  color: #60daaa;
+}
+.draw:hover::before, .draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.draw:hover::before {
+  border-top-color: #60daaa;
+  border-right-color: #60daaa;
+  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.draw:hover::after {
+  border-bottom-color: #60daaa;
+  border-left-color: #60daaa;
+  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#sdraw-meet" data-effect="mfp-move-horizontal"><button class="draw meet">Draw Meet</button></a>
+        <div id="sdraw-meet" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea><section class="buttons">
+  <button class="draw meet">Draw Meet</button>
+</section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px #f45e61;
+  color: #f45e61;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+button::before, button::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.meet:hover {
+  color: #fbca67;
+}
+.meet::after {
+  top: 0;
+  left: 0;
+}
+.meet:hover::before {
+  border-top-color: #fbca67;
+  border-right-color: #fbca67;
+}
+.meet:hover::after {
+  border-bottom-color: #fbca67;
+  border-left-color: #fbca67;
+  -webkit-transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+.buttons {
+  isolation: isolate;
+}</textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#scenter" data-effect="mfp-move-horizontal"><button class="center">Center</button></a>
+        <div id="scenter" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea>
+  <section class="buttons">
+    <button class="center">Center</button>
+  </section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>
+  button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px #f45e61;
+    color: #f45e61;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .buttons {
+    isolation: isolate;
+  }
+  .center:hover {
+    color: #6477b9;
+  }
+  .center::before, .center::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+  .center::before {
+    border-top: 2px solid #6477b9;
+    border-bottom: 2px solid #6477b9;
+    -webkit-transform: scale3d(0, 1, 1);
+            transform: scale3d(0, 1, 1);
+  }
+  .center::after {
+    border-left: 2px solid #6477b9;
+    border-right: 2px solid #6477b9;
+    -webkit-transform: scale3d(1, 0, 1);
+            transform: scale3d(1, 0, 1);
+  }
+  .center:hover::before, .center:hover::after {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }</textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#sspin" data-effect="mfp-move-horizontal"><button class="spin">Spin</button></a>
+        <div id="sspin" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea>
+  <section class="buttons">
+    <button class="spin">Spin</button>
+  </section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>
+  button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px #f45e61;
+    color: #f45e61;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .buttons {
+    isolation: isolate;
+  }
+  .spin {
+    width: 5em;
+    height: 5em;
+    padding: 0;
+  }
+  .spin:hover {
+    color: #0eb7da;
+  }
+  .spin::before, .spin::after {
+    top: 0;
+    left: 0;
+  }
+  .spin::before {
+    border: 2px solid transparent;
+  }
+  .spin:hover::before {
+    border-top-color: #0eb7da;
+    border-right-color: #0eb7da;
+    border-bottom-color: #0eb7da;
+    -webkit-transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  }
+  .spin::after {
+    border: 0 solid transparent;
+  }
+  .spin:hover::after {
+    border-top: 2px solid #0eb7da;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    -webkit-transition: border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+    transition: border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+  }</textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#scircle" data-effect="mfp-move-horizontal"><button class="spin circle">Spin Circle</button></a>
+        <div id="scircle" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea>
+  <section class="buttons">
+    <button class="spin circle">Spin Circle</button>
+  </section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>
+  button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px #f45e61;
+    color: #f45e61;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .buttons {
+    isolation: isolate;
+  }
+  .circle {
+    border-radius: 100%;
+    box-shadow: none;
+  }
+  .circle::before, .circle::after {
+    border-radius: 100%;
+  }</textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#sthick" data-effect="mfp-move-horizontal"><button class="spin thick">Spin Thick</button></a>
+        <div id="sthick" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea>
+  <section class="buttons">
+    <button class="spin thick">Spin Thick</button>
+  </section></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>
+  button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px #f45e61;
+    color: #f45e61;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .buttons {
+    isolation: isolate;
+  }
+  .thick {
+    color: #f45e61;
+  }
+  .thick:hover {
+    color: #fff;
+    font-weight: 700;
+  }
+  .thick::before {
+    border: 2.5em solid transparent;
+    z-index: -1;
+  }
+  .thick::after {
+    mix-blend-mode: color-dodge;
+    z-index: -1;
+  }
+  .thick:hover::before {
+    background: #f45e61;
+    border-top-color: #f45e61;
+    border-right-color: #f45e61;
+    border-bottom-color: #f45e61;
+    -webkit-transition: background 0s linear 0.4s, border-top-color 0.15s linear, border-right-color 0.15s linear 0.15s, border-bottom-color 0.15s linear 0.25s;
+    transition: background 0s linear 0.4s, border-top-color 0.15s linear, border-right-color 0.15s linear 0.15s, border-bottom-color 0.15s linear 0.25s;
+  }
+  .thick:hover::after {
+    border-top: 2.5em solid #f45e61;
+    border-left-width: 2.5em;
+    border-right-width: 2.5em;
+  }</textarea>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <div class="element">
+
+      <h1 style="text-align: center"> Button Hover States</h1>
+      <div class="container" style="color: #ffffff; font-size: 0.7rem">
+        <div class="button"><a href="#31" data-effect="mfp-move-horizontal">Center > out</a></div>
+        <div id="31" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Center -> out</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#32" data-effect="mfp-move-horizontal">L > R > L</a></div>
+        <div id="32" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Left -> Right -> Left</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#33" data-effect="mfp-move-horizontal">L > R > R</a></div>
+        <div id="33" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Left -> Right -> Right</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#34" data-effect="mfp-move-horizontal">T > B > T</a></div>
+        <div id="34" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Top -> Bottom -> Top</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    left: 0;
+    bottom: auto;
+    top: -3px;
+    width: 100%;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+    top: calc(100% - 3px);
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#35" data-effect="mfp-move-horizontal">Skew Fill L > R</a></div>
+        <div id="35" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Skew Fill Left -> Right</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: -1;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+    color: #5bcaff;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <!--   <div class="button">Flex Grow</div> -->
+        <div class="button"><a href="#36" data-effect="mfp-move-horizontal">Rounded Corners</a></div>
+        <div id="36" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Rounded Corners</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: -1;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+    color: #5bcaff;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#37" data-effect="mfp-move-horizontal">Scale</a></div>
+        <div id="37" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Scale</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#38" data-effect="mfp-move-horizontal">Border (Inner Shadow)</a></div>
+        <div id="38" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Border (Inner Shadow)</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 3px #f7f7f7;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="button"><a href="#39" data-effect="mfp-move-horizontal">Border (Outer Shadow)</a></div>
+        <div id="39" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><div class="button">Border (Outer Shadow)</div></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 3px #f7f7f7;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- partial -->
+    </div>
+    <div class="element">
+      <!-- partial:index.partial.html -->
+      <h1 style="text-align: center;">Simple hover effects with <code>box-shadow</code></h1>
+      <div class="buttons4 container">
+
+        <a href="#sfill" data-effect="mfp-move-horizontal"><button class="fill">Fill In</button></a>
+        <div id="sfill" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body">
+              <br />Copy & paste the HTML code<br /><br />
+              <textarea><button class="fill">Fill In</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br />
+              <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .fill {
+    --color: #a972cb;
+    --hover: #cb72aa;
+  }
+  .fill:hover,
+  .fill:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+  }</textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#spulse" data-effect="mfp-move-horizontal"><button class="pulse">Pulse</button></a>
+        <div id="spulse" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="pulse">Pulse</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .pulse {
+    --color: #ef6eae;
+    --hover: #ef8f6e;
+  }
+  .pulse:hover,
+  .pulse:focus {
+    -webkit-animation: pulse 1s;
+            animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+    }
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#sclose1" data-effect="mfp-move-horizontal"><button class="close1">Close</button></a>
+        <div id="sclose1" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="close">Close</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .close {
+    --color: #ff7f82;
+    --hover: #ffdc7f;
+  }
+  .close:hover,
+  .close:focus {
+    box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#sraise" data-effect="mfp-move-horizontal"><button class="raise">Raise</button></a>
+        <div id="sraise" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="raise">Raise</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .raise:hover,
+  .raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+            transform: translateY(-0.25em);
+  }
+  .raise {
+    --color: #ffa260;
+    --hover: #e5ff60;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#sup" data-effect="mfp-move-horizontal"><button class="up">Fill Up</button></a>
+        <div id="sup" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="up">Fill Up</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .up {
+    --color: #e4cb58;
+    --hover: #94e458;
+  }
+  .up:hover,
+  .up:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--hover);
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#sslide" data-effect="mfp-move-horizontal"><button class="slide">Slide</button></a>
+        <div id="sslide" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="slide">Slide</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .slide:hover,
+  .slide:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+  }
+  .slide {
+    --color: #8fc866;
+    --hover: #66c887;
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+        <a href="#soffset" data-effect="mfp-move-horizontal"><button class="offset">Offset</button></a>
+        <div id="soffset" class="white-popup mfp-with-anim mfp-hide">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Get the code</h2>
+            </div>
+            <div class="modal-body"> <br />Copy & paste the HTML code<br /><br /> <textarea><button class="offset">Offset</button></textarea>
+              <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .offset {
+    --color: #19bc8b;
+    --hover: #1973bc;
+  }
+  .offset {
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+  }
+  .offset:hover, .offset:focus {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+  }</textarea>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- partial -->
+    </div>
+    <div class="element">
+      <!-- partial:index.partial.html -->
+      <h1 style="text-align: center">Animated CSS3 Buttons</h1>
+      <h2 style="text-align: center">A collection of animated buttons to spice up your site</h2>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="text-center">
+            <h2 class="mrng-60-top">Victoria</h2>
+          </div>
+          <a href="#V1" class="btn btn-sm animated-button victoria-one" data-effect="mfp-move-horizontal">Sign up</a>
+          <div id="V1" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button victoria-one">Sign up</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Victoria Buttons */
+
+  a.animated-button.victoria-one {
+  	border: 2px solid #D24D57;
+  }
+  a.animated-button.victoria-one:after {
+  	background: #D24D57;
+  	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+          <a href="#V2" class="btn btn-sm animated-button victoria-two" data-effect="mfp-move-horizontal">Login</a>
+          <div id="V2" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button victoria-two">Login</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Victoria Buttons */
+  a.animated-button.victoria-two {
+  	border: 2px solid #D24D57;
+  }
+  a.animated-button.victoria-two:after {
+  	background: #D24D57;
+  	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  }</textarea>
+              </div>
+            </div>
+          </div>
+          <a href="#V3" class="btn btn-sm animated-button victoria-three" data-effect="mfp-move-horizontal">Register</a>
+          <div id="V3" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button victoria-three">Register</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Victoria Buttons */
+  a.animated-button.victoria-three {
+  	border: 2px solid #D24D57;
+  }
+  a.animated-button.victoria-three:after {
+  	background: #D24D57;
+  	opacity: .5;
+  	-moz-transform: translateX(-50%) translateY(-50%);
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	-webkit-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+  }
+  a.animated-button.victoria-three:hover:after {
+  	height: 140%;
+  	opacity: 1;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+          <a href="#V4" class="btn btn-sm animated-button victoria-four" data-effect="mfp-move-horizontal">Learn more</a>
+          <div id="V4" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button victoria-four">Learn more</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Victoria Buttons */
+  a.animated-button.victoria-four {
+  	border: 2px solid #D24D57;
+  }
+  a.animated-button.victoria-four:after {
+  	background: #D24D57;
+  	opacity: .5;
+  	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  }
+  a.animated-button.victoria-four:hover:after {
+  	opacity: 1;
+  	height: 600% !important;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mrng-60-top">Sandy</h2>
+          </div>
+          <a href="#S1" class="btn btn-sm animated-button sandy-one" data-effect="mfp-move-horizontal">Sign up</a>
+          <div id="S1" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button sandy-one">Sign up</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Sandy Buttons */
+
+  a.animated-button.sandy-one {
+  	border: 2px solid #AEA8D3;
+  	color: #FFF;
+  }
+  a.animated-button.sandy-one:after {
+  	border: 3px solid #AEA8D3;
+  	opacity: 0;
+  	-moz-transform: translateX(-50%) translateY(-50%);
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	-webkit-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+
+  }
+  a.animated-button.sandy-one:hover:after {
+  	height: 120% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#S2" class="btn btn-sm animated-button sandy-two" data-effect="mfp-move-horizontal">Login</a>
+          <div id="S2" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br /> <textarea><a href="#" class="btn btn-sm animated-button sandy-two">Login</a></textarea>
+                <br /> <br /><br />
+                Copy & paste the CSS code
+                <br /><br />
+                <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Sandy Buttons */
+  a.animated-button.sandy-two {
+  	border: 2px solid #AEA8D3;
+  	color: #FFF;
+  }
+  a.animated-button.sandy-two:after {
+  	border: 3px solid #AEA8D3;
+  	opacity: 0;
+  	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  }
+  a.animated-button.sandy-two:hover:after {
+  	height: 600% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#S3" class="btn btn-sm animated-button sandy-three" data-effect="mfp-move-horizontal">Register</a>
+          <div id="S3" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button sandy-three">Register</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Sandy Buttons */
+  a.animated-button.sandy-three {
+  	border: 2px solid #AEA8D3;
+  	color: #FFF;
+  }
+  a.animated-button.sandy-three:after {
+  	border: 3px solid #AEA8D3;
+  	opacity: 0;
+  	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  }
+  a.animated-button.sandy-three:hover:after {
+  	height: 400% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#S4" class="btn btn-sm animated-button sandy-four" data-effect="mfp-move-horizontal">Learn more</a>
+          <div id="S4" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button sandy-four">Learn more</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Sandy Buttons */
+  a.animated-button.sandy-four {
+  	border: 2px solid #AEA8D3;
+  	color: #FFF;
+  }
+  a.animated-button.sandy-four:after {
+  	border: 3px solid #AEA8D3;
+  	opacity: 0;
+  	-moz-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+  	-ms-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+  	-webkit-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+  	transform: translateY(-50%) translateX(-50%) rotate(25deg);
+  }
+  a.animated-button.sandy-four:hover:after {
+  	height: 400% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mrng-60-top">Gibson</h2>
+          </div>
+          <a href="#G1" class="btn btn-sm animated-button gibson-one" data-effect="mfp-move-horizontal">Sign up</a>
+          <div id="G1" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br /> <textarea><a href="#" class="btn btn-sm animated-button gibson-one">Sign up</a></textarea>
+                <br /> <br /><br />
+                Copy & paste the CSS code
+                <br /><br />
+                <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Gibson Buttons */
+
+  a.animated-button.gibson-one {
+  	border: 2px solid #65b37a;
+  	color: #FFF;
+  }
+  a.animated-button.gibson-one:after {
+  	opacity: 0;
+  	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  	background-size: 10px 10px;
+  	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  }
+  a.animated-button.gibson-one:hover:after {
+  	height: 600% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#G2" class="btn btn-sm animated-button gibson-two" data-effect="mfp-move-horizontal">Login</a>
+          <div id="G2" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button gibson-two">Login</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  font-family: 'Lato', sans-serif;
+  background: #353535;
+  color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  color: #FFF;
+  text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size:14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  }
+  /* Gibson Buttons */
+  a.animated-button.gibson-two {
+  	border: 2px solid #65b37a;
+  	color: #FFF;
+  }
+  a.animated-button.gibson-two:after {
+  	opacity: 0;
+  	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  	background-size: 10px 10px;
+  	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  }
+  a.animated-button.gibson-two:hover:after {
+  	height: 600% !important;
+  	opacity: 1;
+  	color: #FFF;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#G3" class="btn btn-sm animated-button gibson-three" data-effect="mfp-move-horizontal">Register</a>
+          <div id="G3" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button gibson-three">Register</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+font-family: 'Lato', sans-serif;
+background: #353535;
+color: #FFF;
+}
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+border-radius: 0;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+/* Gibson Buttons */
+a.animated-button.gibson-three {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-three:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+a.animated-button.gibson-three:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#G4" class="btn btn-sm animated-button gibson-four" data-effect="mfp-move-horizontal">Learn more</a>
+          <div id="G4" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button gibson-four">Learn more</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+font-family: 'Lato', sans-serif;
+background: #353535;
+color: #FFF;
+}
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+border-radius: 0;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+/* Gibson Buttons */
+a.animated-button.gibson-four {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-four:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%));
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.gibson-four:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}</textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mrng-60-top">Thar</h2>
+          </div>
+          <a href="#T1" class="btn btn-sm animated-button thar-one" data-effect="mfp-move-horizontal">Sign up</a>
+          <div id="T1" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br /> <textarea><a href="#" class="btn btn-sm animated-button thar-one">Sign up</a></textarea>
+                <br /><br /><br /> <br /><br />
+                Copy & paste the CSS code
+                <br /><br /><br />
+                <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Thar Buttons */
+
+  a.animated-button.thar-one {
+  	color: #fff;
+  	cursor: pointer;
+  	display: block;
+  	position: relative;
+  	border: 2px solid #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  a.animated-button.thar-one:hover {
+  	color: #000 !important;
+  	background-color: transparent;
+  	text-shadow: none;
+  }
+  a.animated-button.thar-one:hover:before {
+  	bottom: 0%;
+  	top: auto;
+  	height: 100%;
+  }
+  a.animated-button.thar-one:before {
+  	display: block;
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	height: 0px;
+  	width: 100%;
+  	z-index: -1;
+  	content: '';
+  	color: #000 !important;
+  	background: #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#T2" class="btn btn-sm animated-button thar-two" data-effect="mfp-move-horizontal">Login</a>
+          <div id="T2" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button thar-two">Login</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea>  @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Thar Buttons */
+
+  a.animated-button.thar-two {
+  	color: #fff;
+  	cursor: pointer;
+  	display: block;
+  	position: relative;
+  	border: 2px solid #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  a.animated-button.thar-two:hover {
+  	color: #000 !important;
+  	background-color: transparent;
+  	text-shadow: ntwo;
+  }
+  a.animated-button.thar-two:hover:before {
+  	top: 0%;
+  	bottom: auto;
+  	height: 100%;
+  }
+  a.animated-button.thar-two:before {
+  	display: block;
+  	position: absolute;
+  	left: 0px;
+  	bottom: 0px;
+  	height: 0px;
+  	width: 100%;
+  	z-index: -1;
+  	content: '';
+  	color: #000 !important;
+  	background: #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+          <a href="#T3" class="btn btn-sm animated-button thar-three" data-effect="mfp-move-horizontal">Register</a>
+          <div id="T3" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button thar-three">Register</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Thar Buttons */
+  a.animated-button.thar-three {
+  	color: #fff;
+  	cursor: pointer;
+  	display: block;
+  	position: relative;
+  	border: 2px solid #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  0s;
+  }
+  a.animated-button.thar-three:hover {
+  	color: #000 !important;
+  	background-color: transparent;
+  	text-shadow: nthree;
+  }
+  a.animated-button.thar-three:hover:before {
+  	left: 0%;
+  	right: auto;
+  	width: 100%;
+  }
+  a.animated-button.thar-three:before {
+  	display: block;
+  	position: absolute;
+  	top: 0px;
+  	right: 0px;
+  	height: 100%;
+  	width: 0px;
+  	z-index: -1;
+  	content: '';
+  	color: #000 !important;
+  	background: #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  0s;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#T4" class="btn btn-sm animated-button thar-four" data-effect="mfp-move-horizontal">Learn more</a>
+          <div id="T4" class="white-popup mfp-with-anim mfp-hide">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get the code</h2>
+              </div>
+              <div class="modal-body">
+                <br />Copy & paste the HTML code<br /><br />
+                <textarea><a href="#" class="btn btn-sm animated-button thar-four">Learn more</a></textarea>
+                <br /><br /><br />Copy & paste the CSS code<br /><br /> <textarea> @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  body {
+  	font-family: 'Lato', sans-serif;
+  	background: #353535;
+  	color: #FFF;
+  }
+  /* Global Button Styles */
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	border-radius: 0;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  a.animated-button:link:after, a.animated-button:visited:after {
+  	content: "";
+  	position: absolute;
+  	height: 0%;
+  	left: 50%;
+  	top: 50%;
+  	width: 150%;
+  	z-index: -1;
+  	-webkit-transition: all 0.75s ease 0s;
+  	-moz-transition: all 0.75s ease 0s;
+  	-o-transition: all 0.75s ease 0s;
+  	transition: all 0.75s ease 0s;
+  }
+  a.animated-button:link:hover, a.animated-button:visited:hover {
+  	color: #FFF;
+  	text-shadow: none;
+  }
+  a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  	height: 450%;
+  }
+  a.animated-button:link, a.animated-button:visited {
+  	position: relative;
+  	display: block;
+  	margin: 30px auto 0;
+  	padding: 14px 15px;
+  	color: #fff;
+  	font-size:14px;
+  	border-radius: 0;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  	letter-spacing: .08em;
+  	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+  }
+  /* Thar Buttons */
+  a.animated-button.thar-four {
+  	color: #fff;
+  	cursor: pointer;
+  	display: block;
+  	position: relative;
+  	border: 2px solid #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  0s;
+  }
+  a.animated-button.thar-four:hover {
+  	color: #000 !important;
+  	background-color: transparent;
+  	text-shadow: nfour;
+  }
+  a.animated-button.thar-four:hover:before {
+  	right: 0%;
+  	left: auto;
+  	width: 100%;
+  }
+  a.animated-button.thar-four:before {
+  	display: block;
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	height: 100%;
+  	width: 0px;
+  	z-index: -1;
+  	content: '';
+  	color: #000 !important;
+  	background: #F7CA18;
+  	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  0s;
+  }</textarea>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
